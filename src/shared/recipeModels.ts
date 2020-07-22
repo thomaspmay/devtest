@@ -12,10 +12,13 @@ export type Recipe = {
 
 export type Ingredient = {
     text: string,
-    amount: number,
+    Amount: number,
     lowerBoundAmount: number,
     upperBoundAmount: number,
     unit: UnitType,
+    standardisedAmount: number,
+    standardisedUnit: UnitType,
+    crucial: boolean,
     name: string,
     tags: string[],
     adjectives: string[],
