@@ -1,6 +1,7 @@
-import { UnitType } from './UnitConversionModel'
+import { UnitType } from '../../shared/UnitConversionModel'
 
 export type Recipe = {
+    id: number,
     title: string,
     desc: string,
     image: Blob,
@@ -40,6 +41,7 @@ export type MetaData = {
 }
 
 export type UnprocessedRecipe = {
+    id: number;
     title: string,
     desc: string,
     image: string, //path to file?

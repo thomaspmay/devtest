@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+message RecipeSearchRequest {
+  string query = 1;
+  int32 resultsPage = 2;
+}
+
+message RecipeSearchResponse {
+    string queryRespondedToo = 1;
+    repeated Recipes = 2;
+}
+
+message Recipe {
+    int64 id = 1;
+    string title = 2;
+    string desc = 3;
+    image image = 4;
+    repeated string instructions = 5;
+    repeated Ingredient ingredients = 6;
+    repeated string tags = 7;
+    Metadata metadata = 8;
+}
+
+message UnprocessedRecipe {
+    int64 id = 1;
+    string title = 2;
+    string desc = 3;
+    image image = 4;
+    repeated string instructions = 5;
+    repeated string ingredients = 6;
+    repeated string tags = 7;
+    Metadata metadata = 8;
+}
+
+message image {
+    string imageName = 1;
+    FileType imageFormat = 2;
+    bytes image = 3;
+}
+
+message Ingredient {
+    string text = 1;
+    int32 amount = 2;
+    int32 lbamount = 3;
+    int32 ubamount = 4;
+    int32 unitType = 5;
+    int32 sAmount = 6;
+    int32 sUnitType = 7;
+    bool crucial = 8;
+    string name = 9;
+    repeated tags = 10;
+    Metadata metadata = 11;
+}
+
+message Metadata {
+    int32 cookTime = 1;
+    int32 difficulty = 2;
+    int32 serves = 3;
+    int32 kcal = 4;
+    int32 fat = 5;
+    int32 saturates = 6;
+    int32 carbs = 7;
+    int32 sugar = 8;
+    int32 fibre = 9;
+    int32 protein = 10;
+    int32 salt = 11;
+}
+
+
+
