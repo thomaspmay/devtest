@@ -12,6 +12,10 @@ message RecipeSearchResponse {
     repeated Recipes = 2;
 }
 
+message allRecipes {
+    repeated Recipes = 1;
+}
+
 message Recipe {
     int64 id = 1;
     string title = 2;

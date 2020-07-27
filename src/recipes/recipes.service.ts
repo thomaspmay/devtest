@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Recipe, UnprocessedRecipe} from '../shared/recipeModels'
+import { Recipe, UnprocessedRecipe} from './models/recipeModels'
 
 @Injectable()
 export class RecipesService {

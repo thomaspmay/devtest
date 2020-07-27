@@ -1,5 +1,9 @@
 import { UnitType } from '../../shared/UnitConversionModel'
 
+export type recipeArray = {
+    recipeArray: Recipe[];
+}
+
 export type Recipe = {
     id: number,
     title: string,
