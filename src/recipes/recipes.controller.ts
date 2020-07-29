@@ -13,11 +13,13 @@ export class RecipesController implements OnModuleInit {
     @Client(grpcClientOptions)
     private client: ClientGrpc;
     private grpcService: recipeGrpcService 
+
     onModuleInit() {
         this.grpcService = this.client.getService<recipeGrpcService>('RecipesController');
     }
-    @GrpcMethod('RecipeService','getAllRecipes')
-    getAllRecipes() :recipeArray {
 
+    @GrpcMethod('RecipeService','getAllRecipes')
+    getAllRecipes() :any {
+        
     } 
 }
