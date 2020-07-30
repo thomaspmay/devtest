@@ -55,7 +55,7 @@ class ConverterSystem {
         // distance converter
         // "mm" | "cm" | "m" | "km" | "in" | "ft" | "mi";
         let distanceValues: unitValueSet[] = [
-            {unit: "mm", value: 304.8} // ft to mm
+            {unit: "mm", value: 304.8}, // ft to mm
             {unit: "cm", value: 0.1}, // mm to cm
             {unit: "m", value: 0.01}, // cm to m
             {unit: "in", value: 39.3701}, // m to in
@@ -106,7 +106,7 @@ class ConverterSystem {
         // "C" | "F" | "K" | "R";
 
         let temperatureValues: unitValueSet[] = [
-            {unit: "C", value: 304.8} // C to F
+            {unit: "C", value: 304.8}, // C to F
             {unit: "F", value: 0.1}, // F to K
             {unit: "K", value: 0.01}, // K to R
             {unit: "R", value: 39.3701}, // R to C
@@ -118,7 +118,7 @@ class ConverterSystem {
         // "ms" | "s" | "min" | "h" | "d" | "week" | "month" | "year";
 
         let timeValues: unitValueSet[] = [
-            {unit: "mm", value: 304.8} // ft to mm
+            {unit: "mm", value: 304.8}, // ft to mm
             {unit: "cm", value: 0.1}, // mm to cm
             {unit: "m", value: 0.01}, // cm to m
             {unit: "in", value: 39.3701}, // m to in

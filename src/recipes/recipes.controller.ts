@@ -1,10 +1,8 @@
 import { Controller, OnModuleInit, Logger } from '@nestjs/common';
 import { GrpcMethod } from '@nestjs/microservices';
-import { RecipesService } from './recipes.service';
 import { Client, ClientGrpc } from '@nestjs/microservices';
-import { recipeArray } from './models/recipeModels'
 import { grpcClientOptions } from '../grpc-client.options';
-import { recipeGrpcService  } from './models/recipeGrpcService.interface';
+import { recipeGrpcService  } from './recipeModels/recipeGrpcService.interface';
 
 @Controller('recipes')
 export class RecipesController implements OnModuleInit {

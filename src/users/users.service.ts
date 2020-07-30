@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { Repository, DeleteResult } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
-import { UserEntity, CreateUserDto } from '../users/userModels/userModels'
+import { CreateUserDto } from '../users/userModels/userModels'
 import { RpcException } from '@nestjs/microservices';
+import { UserEntity } from './userModels/user.entity';
 
 @Injectable()
 export class UsersService {

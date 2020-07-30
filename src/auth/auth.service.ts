@@ -3,7 +3,8 @@ import { Injectable, Logger } from '@nestjs/common';
 import { UsersService } from 'src/users/users.service';
 import { debug } from 'console';
 import { RegistrationStatus, JwtPayload } from '../auth/authModels/authModels';
-import { CreateUserDto, UserEntity, User } from '../users/userModels/userModels';
+import { CreateUserDto, User } from '../users/userModels/userModels';
+import { UserEntity } from 'src/users/userModels/user.entity';
 
 @Injectable()
 export class AuthService {
@@ -40,6 +41,8 @@ export class AuthService {
       'Codebrains',
       { expiresIn },
     );
+    console.log('return the token');
+    console.log(accessToken);
     //debug('return the token');
     //debug(accessToken);
     return {
@@ -51,6 +54,7 @@ export class AuthService {
   async validateUserToken(payload: JwtPayload): Promise<UserEntity> {
     return await this.usersService.findByID(payload.id);
   }
+
   async validateUser(email: string, password: string): Promise<User> {
     const user = await this.usersService.findByEmail(email);
     if (user && user.comparePassword(password)) {

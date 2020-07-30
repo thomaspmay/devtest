@@ -5,6 +5,6 @@ export const grpcClientOptions: ClientOptions = {
   transport: Transport.GRPC,
   options: {
     package: 'recipes', // recipes
-    protoPath: join(__dirname, './recipes/recipe.proto'), // ['recipes']
+    protoPath: join(__dirname, 'protocols/recipeProtocols/recipes.proto'), // ['recipes']
   },
 };
