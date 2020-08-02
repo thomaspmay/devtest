@@ -7,8 +7,8 @@ service rpcUsersService {
     rpc registerUser(userCreateRequest) returns (requestResponse) {}
 
     // read
-    rpc findUserByID(RecipeSearchRequest) returns (RecipeSearchResponse) {}
-    rpc findUserByEmail(RecipeBrowseRequest) returns (RecipeBrowseResponse) {}
+    rpc findUserByID(userByIDRequest) returns (user) {}
+    rpc findUserByEmail(userByEmailRequest) returns (user) {}
     
     // update
     rpc updateUser(userCreateRequest) returns (requestResponse) {}
@@ -43,10 +43,22 @@ message user {
     string password = 5;
 }
 
+message userByIDRequest {
+    int32 id = 1;
+    string authenticationToken = 2;
+}
+
+message userByEmailRequest {
+    string email = 1;
+    string authenticationToken = 2;
+}
+
 message userDeleteRequest {
     int32 id = 1;
     string password = 2;
     string authenticationToken = 3;
 }
+
+
 
 

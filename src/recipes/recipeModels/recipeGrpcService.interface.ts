@@ -2,19 +2,19 @@ import { Observable } from 'rxjs';
 import { recipeArray } from './recipeModels';
 
 export interface recipeGrpcService {
-    createRecipes(Recipe) returns (requestResponse);
-    createUnprocessedRecipe(UnprocessedRecipe) returns (requestResponse);
+    createRecipes(Recipe) :Observable<any>; // requestResponse
+    createUnprocessedRecipe(UnprocessedRecipe) :Observable<any> // requestResponse
 
     // read
-    getAllRecipes(numberArray: recipeArray): Observable<any>;
-    searchRecipes(RecipeSearchRequest) returns (RecipeSearchResponse);
-    browseRecipes(RecipeBrowseRequest) returns (RecipeBrowseResponse);
+    getAllRecipes(data: recipeArray): Observable<any>;
+    searchRecipes(RecipeSearchRequest) :Observable<any> // RecipeSearchResponse
+    browseRecipes(RecipeBrowseRequest) :Observable<any> // RecipeBrowseResponse
     
-    getMyRecipes(RecipeLibraryRequest) returns (RecipeLibraryResponse);
+    getMyRecipes(RecipeLibraryRequest) :Observable<any> // RecipeLibraryResponse
     
     // update
-    updateRecipe(Recipe) returns (requestResponse);
+    updateRecipe(Recipe) :Observable<any>; // requestResponse
 
     // delete
-    deleteRecipe(Recipe) returns (requestResponse);
+    deleteRecipe(Recipe) :Observable<any>; // requestResponse
 }
