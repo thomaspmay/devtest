@@ -16,8 +16,43 @@ export class RecipesController implements OnModuleInit {
         this.grpcService = this.client.getService<recipeGrpcService>('RecipesController');
     }
 
-    @GrpcMethod('RecipeService','getAllRecipes')
+    // create
+    @GrpcMethod('rpcRecipeService','createRecipes')
+    createRecipes() :any {
+        
+    } 
+    @GrpcMethod('rpcRecipeService','createUnprocessedRecipe')
+    createUnprocessedRecipes() :any {
+        
+    } 
+
+    // read
+    @GrpcMethod('rpcRecipeService','getAllRecipes')
     getAllRecipes() :any {
+        
+    } 
+    @GrpcMethod('rpcRecipeService','searchRecipes')
+    searchRecipes() :any {
+        
+    } 
+    @GrpcMethod('rpcRecipeService','browseRecipes')
+    browseRecipes() :any {
+        
+    } 
+    @GrpcMethod('rpcRecipeService','getMyRecipes')
+    getMyRecipes() :any {
+        
+    } 
+    // update
+
+    @GrpcMethod('rpcRecipeService','updateRecipe')
+    updateRecipe() :any {
+        
+    } 
+
+    // delete
+    @GrpcMethod('rpcRecipeService','deleteRecipe')
+    deleteRecipe() :any {
         
     } 
 }

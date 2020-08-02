@@ -26,12 +26,11 @@ export class CreateUserDto {
 }
 
 
-
-
-export class User {
-    id: number;
-    email: string;
-    firstName: string;
-    lastName: string;
-}
+// now defined in proto file
+// export class User {
+//     id: number;
+//     email: string;
+//     firstName: string;
+//     lastName: string;
+// }
 

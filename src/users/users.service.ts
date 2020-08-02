@@ -11,24 +11,39 @@ export class UsersService {
         @InjectRepository(UserEntity)
         private usersRepository: Repository<UserEntity>,
       ) {}
-    
-      public async findAll(): Promise<UserEntity[]> {
-        return this.usersRepository.find();
-      }
-    
-      public async findByID(id: number): Promise<UserEntity> {
-        return this.usersRepository.findOne(id);
-      }
+      
+      // create
 
-      public async findByEmail(userEmail: string): Promise<UserEntity | null> {
-        return await this.usersRepository.findOne({ email: userEmail });
-      }
-
-      public async create(user: CreateUserDto): Promise<UserEntity> {
+      public async registerUser(userDto: CreateUserDto): Promise<UserEntity> {
+        const { email } = userDto;
+        let user = await this.usersRepository.findOne({ where: { email } });
+        if (user) {
+          throw new RpcException('User already exists, please login');
+        }
+        user = await this.usersRepository.create(userDto);
         return await this.usersRepository.save(user);
       }
 
-      public async update(
+      public async createUser(user: CreateUserDto): Promise<UserEntity> {
+        return await this.usersRepository.save(user);
+      }
+
+      // read
+
+      // public async getUsers(): Promise<UserEntity[]> {
+      //   return this.usersRepository.find();
+      // }
+    
+      public async findUserByID(id: number): Promise<UserEntity> {
+        return this.usersRepository.findOne(id);
+      }
+
+      public async findUserByEmail(userEmail: string): Promise<UserEntity | null> {
+        return await this.usersRepository.findOne({ email: userEmail });
+      }
+
+      // update
+      public async updateUser(
         id: number,
         newValue: CreateUserDto,
       ): Promise<UserEntity | null> {
@@ -40,18 +55,9 @@ export class UsersService {
         await this.usersRepository.update(id, newValue);
         return await this.usersRepository.findOne(id);
       }
-    
-      public async delete(id: string): Promise<void> {
+      
+      // delete
+      public async deleteUser(id: string): Promise<void> {
         await this.usersRepository.delete(id);
-      }
-
-      public async register(userDto: CreateUserDto): Promise<UserEntity> {
-        const { email } = userDto;
-        let user = await this.usersRepository.findOne({ where: { email } });
-        if (user) {
-          throw new RpcException('User already exists, please login');
-        }
-        user = await this.usersRepository.create(userDto);
-        return await this.usersRepository.save(user);
       }
 }

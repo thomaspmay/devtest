@@ -6,5 +6,6 @@ export const grpcClientOptions: ClientOptions = {
   options: {
     package: 'recipes', // recipes
     protoPath: join(__dirname, 'protocols/recipeProtocols/recipes.proto'), // ['recipes']
+    url: 'localhost:55555'
   },
 };
