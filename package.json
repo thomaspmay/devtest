@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/thomaspmay/backend/issues"
   },
-  "homepage": "https://github.com/thomaspmay/backend#readme"
+  "homepage": "https://github.com/thomaspmay/backend#readme",
+  "dependencies": {
+    "google-protobuf": "^3.12.4",
+    "grpc": "^1.24.3"
+  }
 }

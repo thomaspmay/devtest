@@ -1,0 +1,64 @@
+ 
+syntax = "proto3";
+
+package users;
+
+service rpcUsersService {
+    // create
+    rpc registerUser(userCreateRequest) returns (requestResponse) {}
+
+    // read
+    rpc findUserByID(userByIDRequest) returns (user) {}
+    rpc findUserByEmail(userByEmailRequest) returns (user) {}
+    
+    // update
+    rpc updateUser(userCreateRequest) returns (requestResponse) {}
+
+    // delete
+    rpc deleteUser(userDeleteRequest) returns (requestResponse) {}
+
+}
+
+message requestResponse {
+    int32 statusCode = 1;
+    string description = 2;
+}
+
+message userLoginRequest {
+    string email = 1;
+    string password = 2;
+}
+
+message userCreateRequest {
+    string firstName = 1;
+    string lastName = 2;
+    string email = 3;
+    string password = 4;
+}
+
+message user {
+    int32 id = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string email = 4;
+    string password = 5;
+}
+
+message userByIDRequest {
+    int32 id = 1;
+    string authenticationToken = 2;
+}
+
+message userByEmailRequest {
+    string email = 1;
+    string authenticationToken = 2;
+}
+
+message userDeleteRequest {
+    int32 id = 1;
+    string password = 2;
+    string authenticationToken = 3;
+}
+
+
+
