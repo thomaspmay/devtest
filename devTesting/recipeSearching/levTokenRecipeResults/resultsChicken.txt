@@ -1,0 +1,630 @@
+[
+  '0:Mushroom Risotto',
+  '1:Filipino BBQ Pork Skewers',
+  '2:Mushroom and Roasted Garlic Risotto',
+  '3:Gratin Dauphinois (Scalloped Potatoes with Cheese)',
+  '4:Delicious Grilled Hamburgers',
+  '5:Hickory-Smoked Bourbon Turkey',
+  '6:Marinated Beef Tenderloin',
+  '7:Cherry Tortoni',
+  '8:Crock-Pot Italian Turkey Meatballs and Homemade Sauce',
+  '9:Chicken Salad with Wild Rice',
+  '10:Beet and Carrot Slaw',
+  '11:Crab-and-Shrimp Étouffée',
+  '12:N.I.K – Italian Meatballs & Spaghetti',
+  '13:Mozzarella Omelet with Sage and Red Chile Flakes',
+  '14:Sticky Chinese Pork Belly',
+  "15:John Legend's Macaroni and Cheese",
+  '16:Arizona Tortilla Soup',
+  '17:Stuart’s Thai Green Curry',
+  '18:Western Waldorf',
+  '19:Salsa Verde',
+  '20:Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]',
+  '21:Spaghetti and Meatballs',
+  '22:Black-Eyed Pea Cakes',
+  '23:Macadamia Nut-Chocolate Tarts',
+  '24:White Bean Dip',
+  '25:Roast Turkey with Port Gravy',
+  '26:Cornmeal Biscuits',
+  '27:Indian Butter Chicken Naan Pizza with Lime & Peanut Slaw',
+  '28:Broccoli Salad',
+  '29:Chicken Piccata',
+  '30:Sparkling Strawberry Pops',
+  '31:Three-Bean Salad',
+  '32:Fried Chicken and Cole Slaw Sandwiches',
+  '33:Apple Horseradish Conserve',
+  '34:Basic Tomato Sauce',
+  '35:Sausage, Escarole, and White Bean Ragout',
+  '36:Pork-and-Pineapple Kebabs',
+  '37:Barbeque Pepper Jack Chicken',
+  '38:Easy Vegetarian Spinach Lasagna',
+  '39:Chicken & Broccoli Alfredo ',
+  '40:Chorizo Mushroom Queso Dip',
+  '41:Mexican Chocolate Sauce',
+  '42:Grilled Tri-tip Roast',
+  '43:Blueberry, Caramel and White Chocolate Oatmeal Cookies',
+  '44:Grilled Portobello and Peach Sandwich',
+  '45:Beef Lasagna (8 Points+)',
+  '46:Mexican Slaw',
+  '47:Caramel Apple Trifles',
+  '48:Chinese Steamed Fish with Soy Sesame Sauce',
+  '49:Thai Chicken Coconut Soup'
+]
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+weird space found
+[
+  {
+    total: 3.5,
+    rank: 0,
+    original: 'Chicken Piccata',
+    tokens: [ 'Chicken', 'Piccata' ],
+    tokenScores: [ 1, 6 ]
+  },
+  {
+    total: 4.8,
+    rank: 1,
+    original: 'Chicken Salad with Wild Rice',
+    tokens: [ 'Chicken', 'Salad', 'with', 'Wild', 'Rice' ],
+    tokenScores: [ 1, 7, 6, 6, 4 ]
+  },
+  {
+    total: 5,
+    rank: 2,
+    original: 'Barbeque Pepper Jack Chicken',
+    tokens: [ 'Barbeque', 'Pepper', 'Jack', 'Chicken' ],
+    tokenScores: [ 8, 6, 5, 1 ]
+  },
+  {
+    total: 5.25,
+    rank: 3,
+    original: 'Thai Chicken Coconut Soup',
+    tokens: [ 'Thai', 'Chicken', 'Coconut', 'Soup' ],
+    tokenScores: [ 6, 1, 7, 7 ]
+  },
+  {
+    total: 5.333333333333333,
+    rank: 4,
+    original: 'White Bean Dip',
+    tokens: [ 'White', 'Bean', 'Dip' ],
+    tokenScores: [ 4, 6, 6 ]
+  },
+  {
+    total: 5.5,
+    rank: 5,
+    original: 'Sticky Chinese Pork Belly',
+    tokens: [ 'Sticky', 'Chinese', 'Pork', 'Belly' ],
+    tokenScores: [ 4, 5, 6, 7 ]
+  },
+  {
+    total: 5.5,
+    rank: 6,
+    original: 'Fried Chicken and Cole Slaw Sandwiches',
+    tokens: [ 'Fried', 'Chicken', 'and', 'Cole', 'Slaw', 'Sandwiches' ],
+    tokenScores: [ 5, 1, 7, 6, 7, 7 ]
+  },
+  {
+    total: 5.5,
+    rank: 7,
+    original: 'Chicken & Broccoli Alfredo ',
+    tokens: [ 'Chicken', '&', 'Broccoli', 'Alfredo' ],
+    tokenScores: [ 1, 7, 7, 7 ]
+  },
+  {
+    total: 5.666666666666667,
+    rank: 8,
+    original: 'Mexican Chocolate Sauce',
+    tokens: [ 'Mexican', 'Chocolate', 'Sauce' ],
+    tokenScores: [ 5, 7, 5 ]
+  },
+  {
+    total: 5.666666666666667,
+    rank: 9,
+    original: 'Caramel Apple Trifles',
+    tokens: [ 'Caramel', 'Apple', 'Trifles' ],
+    tokenScores: [ 6, 6, 5 ]
+  },
+  {
+    total: 5.7,
+    rank: 10,
+    original: 'Indian Butter Chicken Naan Pizza with Lime & Peanut Slaw',
+    tokens: [
+      'Indian',  'Butter',
+      'Chicken', 'Naan',
+      'Pizza',   'with',
+      'Lime',    '&',
+      'Peanut',  'Slaw'
+    ],
+    tokenScores: [
+      6, 6, 1, 6, 6,
+      6, 5, 7, 7, 7
+    ]
+  },
+  {
+    total: 5.857142857142857,
+    rank: 11,
+    original: 'Chinese Steamed Fish with Soy Sesame Sauce',
+    tokens: [
+      'Chinese', 'Steamed',
+      'Fish',    'with',
+      'Soy',     'Sesame',
+      'Sauce'
+    ],
+    tokenScores: [
+      5, 6, 6, 6,
+      7, 6, 5
+    ]
+  },
+  {
+    total: 6,
+    rank: 12,
+    original: 'Black-Eyed Pea Cakes',
+    tokens: [ 'Black-Eyed', 'Pea', 'Cakes' ],
+    tokenScores: [ 7, 6, 5 ]
+  },
+  {
+    total: 6,
+    rank: 13,
+    original: 'Basic Tomato Sauce',
+    tokens: [ 'Basic', 'Tomato', 'Sauce' ],
+    tokenScores: [ 6, 7, 5 ]
+  },
+  {
+    total: 6,
+    rank: 14,
+    original: 'Grilled Tri-tip Roast',
+    tokens: [ 'Grilled', 'Tri-tip', 'Roast' ],
+    tokenScores: [ 5, 6, 7 ]
+  },
+  {
+    total: 6,
+    rank: 15,
+    original: 'Mexican Slaw',
+    tokens: [ 'Mexican', 'Slaw' ],
+    tokenScores: [ 5, 7 ]
+  },
+  {
+    total: 6.125,
+    rank: 16,
+    original: 'Mozzarella Omelet with Sage and Red Chile Flakes',
+    tokens: [
+      'Mozzarella', 'Omelet',
+      'with',       'Sage',
+      'and',        'Red',
+      'Chile',      'Flakes'
+    ],
+    tokenScores: [
+      9, 6, 6, 6,
+      7, 6, 4, 5
+    ]
+  },
+  {
+    total: 6.333333333333333,
+    rank: 17,
+    original: 'Sausage, Escarole, and White Bean Ragout',
+    tokens: [ 'Sausage,', 'Escarole,', 'and', 'White', 'Bean', 'Ragout' ],
+    tokenScores: [ 7, 7, 7, 4, 6, 7 ]
+  },
+  {
+    total: 6.4,
+    rank: 18,
+    original: 'Roast Turkey with Port Gravy',
+    tokens: [ 'Roast', 'Turkey', 'with', 'Port', 'Gravy' ],
+    tokenScores: [ 7, 5, 6, 7, 7 ]
+  },
+  {
+    total: 6.5,
+    rank: 19,
+    original: 'Cherry Tortoni',
+    tokens: [ 'Cherry', 'Tortoni' ],
+    tokenScores: [ 6, 7 ]
+  },
+  {
+    total: 6.5,
+    rank: 20,
+    original: 'Stuart’s Thai Green Curry',
+    tokens: [ 'Stuart’s', 'Thai', 'Green', 'Curry' ],
+    tokenScores: [ 8, 6, 5, 7 ]
+  },
+  {
+    total: 6.5,
+    rank: 21,
+    original: 'Western Waldorf',
+    tokens: [ 'Western', 'Waldorf' ],
+    tokenScores: [ 6, 7 ]
+  },
+  {
+    total: 6.5,
+    rank: 22,
+    original: 'Salsa Verde',
+    tokens: [ 'Salsa', 'Verde' ],
+    tokenScores: [ 7, 6 ]
+  },
+  {
+    total: 6.571428571428571,
+    rank: 23,
+    original: 'Blueberry, Caramel and White Chocolate Oatmeal Cookies',
+    tokens: [
+      'Blueberry,',
+      'Caramel',
+      'and',
+      'White',
+      'Chocolate',
+      'Oatmeal',
+      'Cookies'
+    ],
+    tokenScores: [
+      9, 6, 7, 4,
+      7, 7, 6
+    ]
+  },
+  {
+    total: 6.6,
+    rank: 24,
+    original: "John Legend's Macaroni and Cheese",
+    tokens: [ 'John', "Legend's", 'Macaroni', 'and', 'Cheese' ],
+    tokenScores: [ 6, 8, 7, 7, 5 ]
+  },
+  {
+    total: 6.666666666666667,
+    rank: 25,
+    original: 'Gratin Dauphinois (Scalloped Potatoes with Cheese)',
+    tokens: [
+      'Gratin',
+      'Dauphinois',
+      '(Scalloped',
+      'Potatoes',
+      'with',
+      'Cheese)'
+    ],
+    tokenScores: [ 6, 8, 8, 7, 6, 5 ]
+  },
+  {
+    total: 6.714285714285714,
+    rank: 26,
+    original: 'Crock-Pot Italian Turkey Meatballs and Homemade Sauce',
+    tokens: [
+      'Crock-Pot',
+      'Italian',
+      'Turkey',
+      'Meatballs',
+      'and',
+      'Homemade',
+      'Sauce'
+    ],
+    tokenScores: [
+      7, 6, 5, 9,
+      7, 8, 5
+    ]
+  },
+  {
+    total: 6.75,
+    rank: 27,
+    original: 'Filipino BBQ Pork Skewers',
+    tokens: [ 'Filipino', 'BBQ', 'Pork', 'Skewers' ],
+    tokenScores: [ 7, 7, 6, 7 ]
+  },
+  {
+    total: 6.75,
+    rank: 28,
+    original: 'Beet and Carrot Slaw',
+    tokens: [ 'Beet', 'and', 'Carrot', 'Slaw' ],
+    tokenScores: [ 6, 7, 7, 7 ]
+  },
+  {
+    total: 6.75,
+    rank: 29,
+    original: 'Chorizo Mushroom Queso Dip',
+    tokens: [ 'Chorizo', 'Mushroom', 'Queso', 'Dip' ],
+    tokenScores: [ 6, 8, 7, 6 ]
+  },
+  {
+    total: 6.75,
+    rank: 30,
+    original: 'Beef Lasagna ( Points+)',
+    tokens: [ 'Beef', 'Lasagna', '(', 'Points+)' ],
+    tokenScores: [ 6, 7, 7, 7 ]
+  },
+  {
+    total: 6.818181818181818,
+    rank: 31,
+    original: 'Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]',
+    tokens: [
+      'Red',          'Lentil',
+      'Curry',        'With',
+      'Black',        'Tahini',
+      'and',          'Roasted',
+      'Cashews',      '[Vegan,',
+      'Gluten-Free]'
+    ],
+    tokenScores: [
+       6, 7, 7, 6, 5,
+       6, 7, 6, 7, 7,
+      11
+    ]
+  },
+  {
+    total: 7,
+    rank: 32,
+    original: 'Mushroom and Roasted Garlic Risotto',
+    tokens: [ 'Mushroom', 'and', 'Roasted', 'Garlic', 'Risotto' ],
+    tokenScores: [ 8, 7, 6, 7, 7 ]
+  },
+  {
+    total: 7,
+    rank: 33,
+    original: 'Delicious Grilled Hamburgers',
+    tokens: [ 'Delicious', 'Grilled', 'Hamburgers' ],
+    tokenScores: [ 7, 5, 9 ]
+  },
+  {
+    total: 7,
+    rank: 34,
+    original: 'Arizona Tortilla Soup',
+    tokens: [ 'Arizona', 'Tortilla', 'Soup' ],
+    tokenScores: [ 6, 8, 7 ]
+  },
+  {
+    total: 7,
+    rank: 35,
+    original: 'Cornmeal Biscuits',
+    tokens: [ 'Cornmeal', 'Biscuits' ],
+    tokenScores: [ 7, 7 ]
+  },
+  {
+    total: 7,
+    rank: 36,
+    original: 'Broccoli Salad',
+    tokens: [ 'Broccoli', 'Salad' ],
+    tokenScores: [ 7, 7 ]
+  },
+  {
+    total: 7,
+    rank: 37,
+    original: 'Three-Bean Salad',
+    tokens: [ 'Three-Bean', 'Salad' ],
+    tokenScores: [ 7, 7 ]
+  },
+  {
+    total: 7,
+    rank: 38,
+    original: 'Grilled Portobello and Peach Sandwich',
+    tokens: [ 'Grilled', 'Portobello', 'and', 'Peach', 'Sandwich' ],
+    tokenScores: [ 5, 9, 7, 6, 8 ]
+  },
+  {
+    total: 7.25,
+    rank: 39,
+    original: 'Easy Vegetarian Spinach Lasagna',
+    tokens: [ 'Easy', 'Vegetarian', 'Spinach', 'Lasagna' ],
+    tokenScores: [ 7, 9, 6, 7 ]
+  },
+  {
+    total: 7.333333333333333,
+    rank: 40,
+    original: 'Hickory-Smoked Bourbon Turkey',
+    tokens: [ 'Hickory-Smoked', 'Bourbon', 'Turkey' ],
+    tokenScores: [ 11, 6, 5 ]
+  },
+  {
+    total: 7.333333333333333,
+    rank: 41,
+    original: 'Marinated Beef Tenderloin',
+    tokens: [ 'Marinated', 'Beef', 'Tenderloin' ],
+    tokenScores: [ 7, 6, 9 ]
+  },
+  {
+    total: 7.333333333333333,
+    rank: 42,
+    original: 'N.I.K – Italian Meatballs & Spaghetti',
+    tokens: [ 'N.I.K', '–', 'Italian', 'Meatballs', '&', 'Spaghetti' ],
+    tokenScores: [ 7, 7, 6, 9, 7, 8 ]
+  },
+  {
+    total: 7.5,
+    rank: 43,
+    original: 'Mushroom Risotto',
+    tokens: [ 'Mushroom', 'Risotto' ],
+    tokenScores: [ 8, 7 ]
+  },
+  {
+    total: 7.666666666666667,
+    rank: 44,
+    original: 'Sparkling Strawberry Pops',
+    tokens: [ 'Sparkling', 'Strawberry', 'Pops' ],
+    tokenScores: [ 7, 9, 7 ]
+  },
+  {
+    total: 8,
+    rank: 45,
+    original: 'Spaghetti and Meatballs',
+    tokens: [ 'Spaghetti', 'and', 'Meatballs' ],
+    tokenScores: [ 8, 7, 9 ]
+  },
+  {
+    total: 8.333333333333334,
+    rank: 46,
+    original: 'Apple Horseradish Conserve',
+    tokens: [ 'Apple', 'Horseradish', 'Conserve' ],
+    tokenScores: [ 6, 11, 8 ]
+  },
+  {
+    total: 8.666666666666666,
+    rank: 47,
+    original: 'Macadamia Nut-Chocolate Tarts',
+    tokens: [ 'Macadamia', 'Nut-Chocolate', 'Tarts' ],
+    tokenScores: [ 8, 11, 7 ]
+  },
+  {
+    total: 11.5,
+    rank: 48,
+    original: 'Crab-and-Shrimp Étouffée',
+    tokens: [ 'Crab-and-Shrimp', 'Étouffée' ],
+    tokenScores: [ 14, 9 ]
+  },
+  {
+    total: 12,
+    rank: 49,
+    original: 'Pork-and-Pineapple Kebabs',
+    tokens: [ 'Pork-and-Pineapple', 'Kebabs' ],
+    tokenScores: [ 17, 7 ]
+  }
+]
+{
+  name: 'search',
+  time: 20.250512,
+  words: '20 ms',
+  preciseWords: '20.250512 ms',
+  verboseWords: '20 milliseconds 250 microseconds 512 nanoseconds'
+}
