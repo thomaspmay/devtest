@@ -15,6 +15,9 @@ export class AppController {
   registerUser(newUserRequest: userCreateRequest): Promise<requestResponse> {
     console.log("grpc recieved")
     let dbsize = this.userDB.length;
+    console.log(newUserRequest);
+    console.log(JSON.stringify(newUserRequest));
+    console.log(newUserRequest.getEmail())
     const user = new UserEntity(
       dbsize+1,
       newUserRequest.getFirstname(),

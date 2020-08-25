@@ -1,0 +1,27 @@
+{
+  "name": "devtesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dice-coefficient": "^1.0.5",
+    "execution-time": "^1.4.1",
+    "fastest-levenshtein": "^1.0.12",
+    "ingredientparser": "0.0.3",
+    "ingredients-parser": "^1.4.0",
+    "ingreedie": "^0.2.1",
+    "ingreedy-js": "^0.1.0",
+    "jaccard-index": "^0.2.0",
+    "jaro-winkler": "^0.2.8",
+    "nodejs": "0.0.0",
+    "recipe-ingredient-parser-v2": "^1.1.1",
+    "string-cosine-similarity": "^2.0.1",
+    "string-similarity": "^4.0.2",
+    "tty-table": "^4.1.3"
+  }
+}

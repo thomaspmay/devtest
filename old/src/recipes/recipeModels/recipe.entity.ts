@@ -27,9 +27,9 @@ export class RecipeEntity {
     @OneToMany(type => IngredientEntity, IngredientEntity => IngredientEntity.recipe)
     ingredients: IngredientEntity[]
 
-    @OneToOne(type => MetaDataEntity)
-    @JoinColumn()
-    metadata: MetaDataEntity;
+    // @OneToOne(type => MetaDataEntity)
+    // @JoinColumn()
+    // metadata: MetaDataEntity;
     
     // @UpdateDateColumn()
     // updatedTime: dateTime;

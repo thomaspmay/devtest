@@ -1,8 +1,8 @@
 import { Controller, OnModuleInit, Get, Put, Inject, Param, Body } from '@nestjs/common';
-import { user } from 'src/protocols/userProtocols/users_pb';
-import { rpcUsersAuthService  } from './user-authModels.ts/users.interface'
-import { requestResponse } from 'src/protocols/userProtocols/users_pb';
+import { userCreateRequest, requestResponse } from '../../../protocols/userProtocols/users_pb';
+import { rpcUsersAuthService  } from './user-authModels/users.interface'
 import { ClientGrpc } from '@nestjs/microservices';
+import { User } from './user-authModels/userModels';
 
 
 @Controller('users')
@@ -22,10 +22,20 @@ export class UserAuthController implements OnModuleInit {
     }
 
     @Put('register')
-    async registerUser(@Body() user: user): Promise<requestResponse> {
+    async registerUser(@Body() user: User): requestResponse {
         console.log("register called");
         console.log(JSON.stringify(user));
-        return await this.userAuthService.registerUser(user).toPromise();
+        // let newUser = new userCreateRequest();
+        // newUser.setFirstname(user.firstName);
+        // newUser.setLastname(user.lastName);
+        // newUser.setEmail(user.email);
+        // newUser.setPassword(user.password);
+        return this.userAuthService.registerUser({
+            firstName: user.firstName,
+            lastName: user.lastName,
+            email: user.email,
+            password: user.password
+        });
         
         
         // this.userAuthService.registerUser()

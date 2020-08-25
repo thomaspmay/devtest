@@ -100,7 +100,7 @@ export class recipeSearcher {
 
     matchToken(token: string, searchQuery: string){
         // lev
-        return distance(token,searchQuery);
+        return lev(token,searchQuery);
 
         // Dice's Coefficient
         return 

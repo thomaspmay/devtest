@@ -4,7 +4,19 @@ exports.recipeSearcher = exports.searchRank = void 0;
 var filesys = require('fs');
 var readline = require('readline');
 var perf = require('execution-time')();
-var distance = require('fastest-levenshtein').distance;
+// lev
+var lev = require('fastest-levenshtein').lev;
+// dice coefficient
+var dice = require('string-similarity');
+// var similarity = stringSimilarity.compareTwoStrings('healed', 'sealed'); 
+// var matches = stringSimilarity.findBestMatch('healed', ['edward', 'sealed', 'theatre']);
+var dice = require('dice-coefficient');
+// jaro-winkler
+var jaro = require('jaro-winkler');
+// distance('MARTHA', 'MARTHA'); 1
+// distance('mArThA', 'MaRtHa', { caseSensitive: false });
+// cosine similarity
+var similarity = require('string-cosine-similarity');
 /************user variables******************/
 var searchRank = /** @class */ (function () {
     function searchRank() {
@@ -74,7 +86,10 @@ var recipeSearcher = /** @class */ (function () {
         console.log(results);
     };
     recipeSearcher.prototype.matchToken = function (token, searchQuery) {
-        return distance(token, searchQuery);
+        // lev
+        return lev(token, searchQuery);
+        // Dice's Coefficient
+        return;
     };
     recipeSearcher.prototype.loadRecipeList = function (file) {
         var recipeTitles = filesys.readFileSync(file, 'utf8').toString().split('\n');
