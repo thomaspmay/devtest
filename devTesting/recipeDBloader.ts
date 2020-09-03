@@ -10,6 +10,7 @@ const filesys = require('fs');
 const readline = require('readline');
 
 /************user variables******************/
+// const maxRecipes = 27638
 const maxRecipes = 100;
 
 export class recipeDBloader {
@@ -18,7 +19,16 @@ export class recipeDBloader {
     ids: string[] = [];
     parser: any;
     parserName: string;
-    finalRecipes: unproRecipe[];
+    finalRecipes: any[];
+
+    public unitTypes = ['weight','volume','misc']
+    public possibleUnitLists = [
+         ["gram","kilogram","ounce","pound"],
+         ["cup","teaspoon","tablespoon","pint","liter","milliliter","cm3","mm3","m3","can"],
+         ["","unkown","clove","large","medium","small","stick","package","bag", "pinch","slice","quart","piece","box"]
+    ]
+    public verifiedUnits = ["cup","teaspoon",null,"tablespoon","pound","ounce","clove","large","medium","stick","package",
+    "can","kilogram","pinch","slice","small","bag","quart","piece","pint","gram","milliliter","box","gallon","liter"]
 
     constructor(dbType: string, parserType: string){
         if(dbType == "yummy"){
@@ -49,17 +59,20 @@ export class recipeDBloader {
     }
 
     async loadYummyDB(){
-        let recipes: unproRecipe[] = [];
+        let recipes: any[] = [];
         let recipeNames = this.folder + "/" + "recipeNames.txt";
         let idTitleObject = await this.loadAndParseFile(recipeNames);
         this.titles = idTitleObject.titles;
         this.ids = idTitleObject.ids;
-        for(let i = 0; i < maxRecipes && i < idTitleObject.ids.length - 1; i ++){
+        let possibleIngredients: string[] = [];
+        // for(let i = 0; i < maxRecipes && i < idTitleObject.ids.length - 1; i ++){
+            for(let i = 0;  i < idTitleObject.ids.length - 1; i ++){
             
             let fileAsString = filesys.readFileSync(this.folder + "/recipeMetadata/meta" + this.ids[i] + ".json", 'utf8').toString();
             try {
                 let metadata = JSON.parse(fileAsString);
                 let unprocessedRecipe: unproRecipe = {
+                    id: i,
                     title: metadata.name,
                     description: metadata.attribution.text,
                     unproIngredients: metadata.ingredientLines,
@@ -70,15 +83,31 @@ export class recipeDBloader {
                 };
                 // console.log(i + ":" + unprocessedRecipe.title);
                 let ingredients: ingredient[] = [];
-                    
+                    var counter = 0;
                     metadata.ingredientLines.forEach(line => {
                         
                         let parsedIngredient;
                         try {
+                            counter+=1;
                             parsedIngredient = parserv2(line);
                             // console.log(line);
                             // console.log(parsedIngredient);
+                            parsedIngredient.ingredientId = counter;
+                            for (var i = 0; i < this.unitTypes.length; i++) {
+                                for (var j = 0; j < this.possibleUnitLists[i].length; j++) {
+                                    if(this.possibleUnitLists[i][j] == parsedIngredient.unit){
+                                        parsedIngredient.unitTypeId = i;
+                                        parsedIngredient.unitId = j;
+                                    } else if (parsedIngredient.unit == null){
+                                        parsedIngredient.unitTypeId = 2;
+                                        parsedIngredient.unitId = 0;
+                                    }
+                                }
+                            }
+                            parsedIngredient.importance = this.calculateImportance(parsedIngredient,unprocessedRecipe);
                             ingredients.push(parsedIngredient);
+                                
+                            
                             
                         } catch(e) {
                             console.error(e);
@@ -87,13 +116,24 @@ export class recipeDBloader {
                     });
                     
                     recipes.push(unprocessedRecipe);
-                
+                    
                 } catch(e) {
                     console.error(e);
                 }
+                
             this.finalRecipes = recipes;
         }
+        filesys.writeFileSync("mockRecipes.txt", JSON.stringify(recipes));
+                // filesys.writeFileSync("possibleUnits.txt", JSON.stringify(possibleIngredients));
     };
+
+    calculateImportance(parsedIngredient,unprocessedRecipe){
+        // is ingredient in title - return 10
+        return 5;
+        // tf-ifd of ingredients - return 4-8 based on score
+
+        // is it a condiment - return 2
+    }
 
 
 

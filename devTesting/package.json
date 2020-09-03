@@ -18,6 +18,7 @@
     "ingreedy-js": "^0.1.0",
     "jaccard-index": "^0.2.0",
     "jaro-winkler": "^0.2.8",
+    "leven": "^3.1.0",
     "nodejs": "0.0.0",
     "recipe-ingredient-parser-v2": "^1.1.1",
     "string-cosine-similarity": "^2.0.1",
