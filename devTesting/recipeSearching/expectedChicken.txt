@@ -19,7 +19,6 @@
 6:Marinated Beef Tenderloin
 7:Cherry Tortoni
 8:Crock-Pot Italian Turkey Meatballs and Homemade Sauce
-
 10:Beet and Carrot Slaw
 11:Crab-and-Shrimp Étouffée
 12:N.I.K – Italian Meatballs & Spaghetti
@@ -37,19 +36,14 @@
 24:White Bean Dip
 25:Roast Turkey with Port Gravy
 26:Cornmeal Biscuits
-
 28:Broccoli Salad
-
 30:Sparkling Strawberry Pops
 31:Three-Bean Salad
-
 33:Apple Horseradish Conserve
 34:Basic Tomato Sauce
 35:Sausage, Escarole, and White Bean Ragout
 36:Pork-and-Pineapple Kebabs
-
 38:Easy Vegetarian Spinach Lasagna
- 
 40:Chorizo Mushroom Queso Dip
 41:Mexican Chocolate Sauce
 42:Grilled Tri-tip Roast

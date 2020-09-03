@@ -5,7 +5,7 @@ var filesys = require('fs');
 var readline = require('readline');
 var perf = require('execution-time')();
 // lev
-var lev = require('fastest-levenshtein').lev;
+var leven = require('leven');
 // dice coefficient
 var dice = require('string-similarity');
 // var similarity = stringSimilarity.compareTwoStrings('healed', 'sealed'); 
@@ -29,65 +29,97 @@ var recipeSearcher = /** @class */ (function () {
         this.run();
     }
     recipeSearcher.prototype.run = function () {
-        var searchQuery = "chicken";
-        var recipeArray = this.loadRecipeList("setRecipeList.txt");
-        perf.start('search'); // starts timer
-        var searchResults = [];
-        for (var i = 0; i < recipeArray.length; i++) {
-            var fullString = recipeArray[i];
-            var removedNumbers = fullString.replace(/[0-9]/g, "");
-            var processedString = removedNumbers.replace(":", "");
-            // tokenise on spaces
-            var tokensWithSpaces = processedString.split(/(\s+)/);
-            var tokens = [];
-            for (var _i = 0, tokensWithSpaces_1 = tokensWithSpaces; _i < tokensWithSpaces_1.length; _i++) {
-                var i_1 = tokensWithSpaces_1[_i];
-                if (i_1 == " ") {
-                    console.log("weird space found");
-                    i_1.replace(/(\s+)/, "");
+        var searchQueries = ["Chicken", "Chicken Salad", "Curry", "Mushroom Soup", "Mushroom", "Chocolat", "Apples", "Italien Metball"];
+        for (var _i = 0, searchQueries_1 = searchQueries; _i < searchQueries_1.length; _i++) {
+            var searchQuery = searchQueries_1[_i];
+            var recipeArray = this.loadRecipeList("setRecipeList.txt");
+            perf.start('search'); // starts timer
+            var searchResults = [];
+            for (var i = 0; i < recipeArray.length; i++) {
+                var fullString = recipeArray[i];
+                var removedNumbers = fullString.replace(/[0-9]/g, "");
+                var processedString = removedNumbers.replace(":", "");
+                var tokens = [];
+                // tokenise title on spaces - remove block for full string implementations
+                // let tokensWithSpaces: string[] = processedString.split(/(\s+)/);
+                // for(let i of tokensWithSpaces){
+                //     if(i == " "){
+                //         console.log("weird space found");
+                //         i.replace(/(\s+)/,"");
+                //     } else {
+                //         i && tokens.push(i);
+                //     }
+                // }
+                // if don't title tokenise on spaces, set tokens array with single string
+                tokens.push(processedString);
+                var queryTokens = [];
+                // tokenise on spaces - remove block for full string implementations
+                // let queryTokensWithSpaces: string[] = searchQuery.split(/(\s+)/);
+                // for(let i of queryTokensWithSpaces){
+                //     if(i == " "){
+                //         console.log("weird space found");
+                //         i.replace(/(\s+)/,"");
+                //     } else {
+                //         i && queryTokens.push(i);
+                //     }
+                // }
+                // if don't title tokenise on spaces, set tokens array with single string
+                queryTokens.push(searchQuery);
+                // for each token, string match
+                var tokenScores = [];
+                for (var j = 0; j < tokens.length; j++) {
+                    for (var m = 0; m < queryTokens.length; m++) {
+                        tokenScores.push(this.matchStrings(tokens[j].toUpperCase(), queryTokens[m].toUpperCase()));
+                    }
                 }
-                else {
-                    i_1 && tokens.push(i_1);
-                }
+                // add and divide by length to give score
+                var sum = tokenScores.reduce(function (a, b) {
+                    return a + b;
+                }, 0);
+                var total = sum / tokenScores.length;
+                // alternatively take lowest value
+                // var minScore = 1000;
+                // for(let i = 0; i < tokenScores.length; i++){
+                // if(tokenScores[i] < minScore){
+                // minScore = tokenScores[i];
+                // }
+                // }
+                var entry = {
+                    total: total,
+                    // total: minScore,
+                    rank: null,
+                    original: processedString,
+                    tokens: tokens,
+                    tokenScores: tokenScores
+                };
+                searchResults.push(entry);
             }
-            var tokenScores = [];
-            // for each token, string match
-            for (var j = 0; j < tokens.length; j++) {
-                tokenScores.push(this.matchToken(tokens[j], searchQuery));
+            // rank each query
+            searchResults.sort(function (a, b) {
+                if (a.total < b.total)
+                    return -1;
+                if (a.total > b.total)
+                    return 1;
+                return 0;
+            });
+            // once sorted, give rank for output
+            for (var i = 0; i < searchResults.length; i++) {
+                searchResults[i].rank = i;
             }
-            // add and divide by length to give score
-            var sum = tokenScores.reduce(function (a, b) {
-                return a + b;
-            }, 0);
-            var total = sum / tokenScores.length;
-            var entry = {
-                total: total,
-                rank: null,
-                original: processedString,
-                tokens: tokens,
-                tokenScores: tokenScores
-            };
-            searchResults.push(entry);
+            var results = perf.stop('search'); //stops timer
+            console.log(searchResults);
+            console.log(results);
+            var outputFolder = "./levFullStrings/";
+            var outputFile = outputFolder + searchQuery + ".txt";
+            if (!filesys.existsSync(outputFolder)) {
+                filesys.mkdirSync(outputFolder);
+            }
+            filesys.writeFileSync(outputFile, JSON.stringify(searchResults, null, 4));
         }
-        // rank each query
-        searchResults.sort(function (a, b) {
-            if (a.total < b.total)
-                return -1;
-            if (a.total > b.total)
-                return 1;
-            return 0;
-        });
-        // once sorted, give rank for output
-        for (var i = 0; i < searchResults.length; i++) {
-            searchResults[i].rank = i;
-        }
-        console.log(searchResults);
-        var results = perf.stop('search'); //stops timer
-        console.log(results);
     };
-    recipeSearcher.prototype.matchToken = function (token, searchQuery) {
+    recipeSearcher.prototype.matchStrings = function (token, searchQuery) {
         // lev
-        return lev(token, searchQuery);
+        return leven(token, searchQuery);
         // Dice's Coefficient
         return;
     };

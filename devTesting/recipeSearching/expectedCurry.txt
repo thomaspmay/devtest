@@ -1,13 +1,9 @@
+17:Stuart’s Thai Green Curry
+20:Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]
+
 0:Mushroom Risotto
-2:Mushroom and Roasted Garlic Risotto
-40:Chorizo Mushroom Queso Dip
-
-
-
-
-
-
 1:Filipino BBQ Pork Skewers
+2:Mushroom and Roasted Garlic Risotto
 3:Gratin Dauphinois (Scalloped Potatoes with Cheese)
 4:Delicious Grilled Hamburgers
 5:Hickory-Smoked Bourbon Turkey
@@ -22,10 +18,8 @@
 14:Sticky Chinese Pork Belly
 15:John Legend's Macaroni and Cheese
 16:Arizona Tortilla Soup
-17:Stuart’s Thai Green Curry
 18:Western Waldorf
 19:Salsa Verde
-20:Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]
 21:Spaghetti and Meatballs
 22:Black-Eyed Pea Cakes
 23:Macadamia Nut-Chocolate Tarts
@@ -45,6 +39,7 @@
 37:Barbeque Pepper Jack Chicken
 38:Easy Vegetarian Spinach Lasagna
 39:Chicken & Broccoli Alfredo 
+40:Chorizo Mushroom Queso Dip
 41:Mexican Chocolate Sauce
 42:Grilled Tri-tip Roast
 43:Blueberry, Caramel and White Chocolate Oatmeal Cookies
