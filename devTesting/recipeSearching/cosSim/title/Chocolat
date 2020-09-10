@@ -1,0 +1,858 @@
+[
+    {
+        "total": 0.4668082762110513,
+        "rank": 0,
+        "original": "Mexican Chocolate Sauce",
+        "tokens": [
+            "Mexican",
+            "Chocolate",
+            "Sauce"
+        ],
+        "tokenScores": [
+            0.6913933000758161,
+            0.07417990022744858,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.48400222287484757,
+        "rank": 1,
+        "original": "Macadamia Nut-Chocolate Tarts",
+        "tokens": [
+            "Macadamia",
+            "Nut-Chocolate",
+            "Tarts"
+        ],
+        "tokenScores": [
+            0.6348516283298893,
+            0.2254033307585166,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.5446581987385204,
+        "rank": 2,
+        "original": "Cornmeal Biscuits",
+        "tokens": [
+            "Cornmeal",
+            "Biscuits"
+        ],
+        "tokenScores": [
+            0.42264973081037416,
+            0.6666666666666666
+        ]
+    },
+    {
+        "total": 0.54557513117139,
+        "rank": 3,
+        "original": "Blueberry, Caramel and White Chocolate Oatmeal Cookies",
+        "tokens": [
+            "Blueberry,",
+            "Caramel",
+            "and",
+            "White",
+            "Chocolate",
+            "Oatmeal",
+            "Cookies"
+        ],
+        "tokenScores": [
+            0.8456966500379081,
+            0.4999999999999999,
+            0.7642977396044841,
+            0.6348516283298893,
+            0.07417990022744858,
+            0.33333333333333326,
+            0.6666666666666666
+        ]
+    },
+    {
+        "total": 0.5458758547680684,
+        "rank": 4,
+        "original": "Broccoli Salad",
+        "tokens": [
+            "Broccoli",
+            "Salad"
+        ],
+        "tokenScores": [
+            0.4999999999999999,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.5524436069879947,
+        "rank": 5,
+        "original": "Basic Tomato Sauce",
+        "tokens": [
+            "Basic",
+            "Tomato",
+            "Sauce"
+        ],
+        "tokenScores": [
+            0.6348516283298893,
+            0.3876275643042054,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.5594720545807503,
+        "rank": 6,
+        "original": "Chicken Piccata",
+        "tokens": [
+            "Chicken",
+            "Piccata"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.4522774424948339
+        ]
+    },
+    {
+        "total": 0.5734484433528354,
+        "rank": 7,
+        "original": "Gratin Dauphinois (Scalloped Potatoes with Cheese)",
+        "tokens": [
+            "Gratin",
+            "Dauphinois",
+            "(Scalloped",
+            "Potatoes",
+            "with",
+            "Cheese)"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.5917517095361369,
+            0.45566894604818264,
+            0.4999999999999999,
+            0.5917517095361369,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.5756118820584436,
+        "rank": 8,
+        "original": "Thai Chicken Coconut Soup",
+        "tokens": [
+            "Thai",
+            "Chicken",
+            "Coconut",
+            "Soup"
+        ],
+        "tokenScores": [
+            0.3876275643042054,
+            0.6666666666666666,
+            0.4522774424948339,
+            0.7958758547680684
+        ]
+    },
+    {
+        "total": 0.5793695038219587,
+        "rank": 9,
+        "original": "Three-Bean Salad",
+        "tokens": [
+            "Three-Bean",
+            "Salad"
+        ],
+        "tokenScores": [
+            0.5669872981077806,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.594381669870651,
+        "rank": 10,
+        "original": "Caramel Apple Trifles",
+        "tokens": [
+            "Caramel",
+            "Apple",
+            "Trifles"
+        ],
+        "tokenScores": [
+            0.4999999999999999,
+            0.5917517095361369,
+            0.6913933000758161
+        ]
+    },
+    {
+        "total": 0.5975126113512209,
+        "rank": 11,
+        "original": "Beet and Carrot Slaw",
+        "tokens": [
+            "Beet",
+            "and",
+            "Carrot",
+            "Slaw"
+        ],
+        "tokenScores": [
+            0.7642977396044841,
+            0.7642977396044841,
+            0.26970325665977857,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.5986252849226895,
+        "rank": 12,
+        "original": "Arizona Tortilla Soup",
+        "tokens": [
+            "Arizona",
+            "Tortilla",
+            "Soup"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.33333333333333326,
+            0.7958758547680684
+        ]
+    },
+    {
+        "total": 0.6084200062842842,
+        "rank": 13,
+        "original": "Crock-Pot Italian Turkey Meatballs and Homemade Sauce",
+        "tokens": [
+            "Crock-Pot",
+            "Italian",
+            "Turkey",
+            "Meatballs",
+            "and",
+            "Homemade",
+            "Sauce"
+        ],
+        "tokenScores": [
+            0.5370899501137243,
+            0.4522774424948339,
+            0.8333333333333333,
+            0.5370899501137243,
+            0.7642977396044841,
+            0.4999999999999999,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.6167107692399112,
+        "rank": 14,
+        "original": "Apple Horseradish Conserve",
+        "tokens": [
+            "Apple",
+            "Horseradish",
+            "Conserve"
+        ],
+        "tokenScores": [
+            0.5917517095361369,
+            0.5669872981077806,
+            0.6913933000758161
+        ]
+    },
+    {
+        "total": 0.6205811969429529,
+        "rank": 15,
+        "original": "Mushroom and Roasted Garlic Risotto",
+        "tokens": [
+            "Mushroom",
+            "and",
+            "Roasted",
+            "Garlic",
+            "Risotto"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.7642977396044841,
+            0.5370899501137243,
+            0.4999999999999999,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.622791662608663,
+        "rank": 16,
+        "original": "Spaghetti and Meatballs",
+        "tokens": [
+            "Spaghetti",
+            "and",
+            "Meatballs"
+        ],
+        "tokenScores": [
+            0.5669872981077806,
+            0.7642977396044841,
+            0.5370899501137243
+        ]
+    },
+    {
+        "total": 0.6307971527308313,
+        "rank": 17,
+        "original": "Grilled Portobello and Peach Sandwich",
+        "tokens": [
+            "Grilled",
+            "Portobello",
+            "and",
+            "Peach",
+            "Sandwich"
+        ],
+        "tokenScores": [
+            0.8333333333333333,
+            0.5370899501137243,
+            0.7642977396044841,
+            0.4522774424948339,
+            0.5669872981077806
+        ]
+    },
+    {
+        "total": 0.6348516283298893,
+        "rank": 18,
+        "original": "Cherry Tortoni",
+        "tokens": [
+            "Cherry",
+            "Tortoni"
+        ],
+        "tokenScores": [
+            0.6348516283298893,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.6415725048059765,
+        "rank": 19,
+        "original": "Mexican Slaw",
+        "tokens": [
+            "Mexican",
+            "Slaw"
+        ],
+        "tokenScores": [
+            0.6913933000758161,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.6507591474982779,
+        "rank": 20,
+        "original": "Mushroom Risotto",
+        "tokens": [
+            "Mushroom",
+            "Risotto"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.6565566380366965,
+        "rank": 21,
+        "original": "Crab-and-Shrimp Étouffée",
+        "tokens": [
+            "Crab-and-Shrimp",
+            "Étouffée"
+        ],
+        "tokenScores": [
+            0.6464466094067263,
+            0.6666666666666666
+        ]
+    },
+    {
+        "total": 0.657308001813077,
+        "rank": 22,
+        "original": "Roast Turkey with Port Gravy",
+        "tokens": [
+            "Roast",
+            "Turkey",
+            "with",
+            "Port",
+            "Gravy"
+        ],
+        "tokenScores": [
+            0.4522774424948339,
+            0.8333333333333333,
+            0.5917517095361369,
+            0.5917517095361369,
+            0.8174258141649446
+        ]
+    },
+    {
+        "total": 0.6575296007098436,
+        "rank": 23,
+        "original": "Mozzarella Omelet with Sage and Red Chile Flakes",
+        "tokens": [
+            "Mozzarella",
+            "Omelet",
+            "with",
+            "Sage",
+            "and",
+            "Red",
+            "Chile",
+            "Flakes"
+        ],
+        "tokenScores": [
+            0.5370899501137243,
+            0.4522774424948339,
+            0.5917517095361369,
+            0.7958758547680684,
+            0.7642977396044841,
+            1,
+            0.4522774424948339,
+            0.6666666666666666
+        ]
+    },
+    {
+        "total": 0.6585013811410249,
+        "rank": 24,
+        "original": "Sausage, Escarole, and White Bean Ragout",
+        "tokens": [
+            "Sausage,",
+            "Escarole,",
+            "and",
+            "White",
+            "Bean",
+            "Ragout"
+        ],
+        "tokenScores": [
+            0.8333333333333333,
+            0.42264973081037416,
+            0.7642977396044841,
+            0.6348516283298893,
+            0.7958758547680684,
+            0.4999999999999999
+        ]
+    },
+    {
+        "total": 0.6636336924901701,
+        "rank": 25,
+        "original": "Black-Eyed Pea Cakes",
+        "tokens": [
+            "Black-Eyed",
+            "Pea",
+            "Cakes"
+        ],
+        "tokenScores": [
+            0.5917517095361369,
+            0.7642977396044841,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.6650835934211562,
+        "rank": 26,
+        "original": "Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]",
+        "tokens": [
+            "Red",
+            "Lentil",
+            "Curry",
+            "With",
+            "Black",
+            "Tahini",
+            "and",
+            "Roasted",
+            "Cashews",
+            "[Vegan,",
+            "Gluten-Free]"
+        ],
+        "tokenScores": [
+            1,
+            0.6348516283298893,
+            0.7958758547680684,
+            0.5917517095361369,
+            0.4522774424948339,
+            0.4522774424948339,
+            0.7642977396044841,
+            0.5370899501137243,
+            0.4999999999999999,
+            0.8456966500379081,
+            0.7418011102528388
+        ]
+    },
+    {
+        "total": 0.6661175517656781,
+        "rank": 27,
+        "original": "John Legend's Macaroni and Cheese",
+        "tokens": [
+            "John",
+            "Legend's",
+            "Macaroni",
+            "and",
+            "Cheese"
+        ],
+        "tokenScores": [
+            0.5917517095361369,
+            0.8456966500379081,
+            0.5370899501137243,
+            0.7642977396044841,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.667015898274605,
+        "rank": 28,
+        "original": "Fried Chicken and Cole Slaw Sandwiches",
+        "tokens": [
+            "Fried",
+            "Chicken",
+            "and",
+            "Cole",
+            "Slaw",
+            "Sandwiches"
+        ],
+        "tokenScores": [
+            1,
+            0.6666666666666666,
+            0.7642977396044841,
+            0.3876275643042054,
+            0.5917517095361369,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.6697855746542173,
+        "rank": 29,
+        "original": "Easy Vegetarian Spinach Lasagna",
+        "tokens": [
+            "Easy",
+            "Vegetarian",
+            "Spinach",
+            "Lasagna"
+        ],
+        "tokenScores": [
+            0.7958758547680684,
+            0.7113248654051871,
+            0.5370899501137243,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.6759391541950976,
+        "rank": 30,
+        "original": "Chicken & Broccoli Alfredo ",
+        "tokens": [
+            "Chicken",
+            "&",
+            "Broccoli",
+            "Alfredo"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            1,
+            0.4999999999999999,
+            0.5370899501137243
+        ]
+    },
+    {
+        "total": 0.6852116417235288,
+        "rank": 31,
+        "original": "Western Waldorf",
+        "tokens": [
+            "Western",
+            "Waldorf"
+        ],
+        "tokenScores": [
+            0.8333333333333333,
+            0.5370899501137243
+        ]
+    },
+    {
+        "total": 0.6883843590550154,
+        "rank": 32,
+        "original": "Chicken Salad with Wild Rice",
+        "tokens": [
+            "Chicken",
+            "Salad",
+            "with",
+            "Wild",
+            "Rice"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.5917517095361369,
+            0.5917517095361369,
+            0.7958758547680684,
+            0.7958758547680684
+        ]
+    },
+    {
+        "total": 0.7010121966643705,
+        "rank": 33,
+        "original": "Grilled Tri-tip Roast",
+        "tokens": [
+            "Grilled",
+            "Tri-tip",
+            "Roast"
+        ],
+        "tokenScores": [
+            0.8333333333333333,
+            0.8174258141649446,
+            0.4522774424948339
+        ]
+    },
+    {
+        "total": 0.70228373147714,
+        "rank": 34,
+        "original": "Chinese Steamed Fish with Soy Sesame Sauce",
+        "tokens": [
+            "Chinese",
+            "Steamed",
+            "Fish",
+            "with",
+            "Soy",
+            "Sesame",
+            "Sauce"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.7958758547680684,
+            0.5917517095361369,
+            0.7642977396044841,
+            0.7958758547680684,
+            0.6348516283298893
+        ]
+    },
+    {
+        "total": 0.709385034821735,
+        "rank": 35,
+        "original": "Delicious Grilled Hamburgers",
+        "tokens": [
+            "Delicious",
+            "Grilled",
+            "Hamburgers"
+        ],
+        "tokenScores": [
+            0.5669872981077806,
+            0.8333333333333333,
+            0.7278344730240913
+        ]
+    },
+    {
+        "total": 0.7125425214347352,
+        "rank": 36,
+        "original": "Stuart’s Thai Green Curry",
+        "tokens": [
+            "Stuart’s",
+            "Thai",
+            "Green",
+            "Curry"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.3876275643042054,
+            1,
+            0.7958758547680684
+        ]
+    },
+    {
+        "total": 0.7240756706134732,
+        "rank": 37,
+        "original": "Pork-and-Pineapple Kebabs",
+        "tokens": [
+            "Pork-and-Pineapple",
+            "Kebabs"
+        ],
+        "tokenScores": [
+            0.6307255270620018,
+            0.8174258141649446
+        ]
+    },
+    {
+        "total": 0.7312712607173675,
+        "rank": 38,
+        "original": "Sticky Chinese Pork Belly",
+        "tokens": [
+            "Sticky",
+            "Chinese",
+            "Pork",
+            "Belly"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.7958758547680684,
+            0.7958758547680684
+        ]
+    },
+    {
+        "total": 0.734485692677921,
+        "rank": 39,
+        "original": "Sparkling Strawberry Pops",
+        "tokens": [
+            "Sparkling",
+            "Strawberry",
+            "Pops"
+        ],
+        "tokenScores": [
+            0.7278344730240913,
+            0.7113248654051871,
+            0.7642977396044841
+        ]
+    },
+    {
+        "total": 0.7433214996279944,
+        "rank": 40,
+        "original": "Indian Butter Chicken Naan Pizza with Lime & Peanut Slaw",
+        "tokens": [
+            "Indian",
+            "Butter",
+            "Chicken",
+            "Naan",
+            "Pizza",
+            "with",
+            "Lime",
+            "&",
+            "Peanut",
+            "Slaw"
+        ],
+        "tokenScores": [
+            0.7958758547680684,
+            0.8174258141649446,
+            0.6666666666666666,
+            0.7113248654051871,
+            0.7958758547680684,
+            0.5917517095361369,
+            0.7958758547680684,
+            1,
+            0.6666666666666666,
+            0.5917517095361369
+        ]
+    },
+    {
+        "total": 0.7460231202079028,
+        "rank": 41,
+        "original": "Chorizo Mushroom Queso Dip",
+        "tokens": [
+            "Chorizo",
+            "Mushroom",
+            "Queso",
+            "Dip"
+        ],
+        "tokenScores": [
+            0.4999999999999999,
+            0.6666666666666666,
+            0.8174258141649446,
+            1
+        ]
+    },
+    {
+        "total": 0.7593924484527231,
+        "rank": 42,
+        "original": "N.I.K – Italian Meatballs & Spaghetti",
+        "tokens": [
+            "N.I.K",
+            "–",
+            "Italian",
+            "Meatballs",
+            "&",
+            "Spaghetti"
+        ],
+        "tokenScores": [
+            1,
+            1,
+            0.4522774424948339,
+            0.5370899501137243,
+            1,
+            0.5669872981077806
+        ]
+    },
+    {
+        "total": 0.7594373878376559,
+        "rank": 43,
+        "original": "Marinated Beef Tenderloin",
+        "tokens": [
+            "Marinated",
+            "Beef",
+            "Tenderloin"
+        ],
+        "tokenScores": [
+            0.7113248654051871,
+            1,
+            0.5669872981077806
+        ]
+    },
+    {
+        "total": 0.7642977396044841,
+        "rank": 44,
+        "original": "Salsa Verde",
+        "tokens": [
+            "Salsa",
+            "Verde"
+        ],
+        "tokenScores": [
+            0.5285954792089682,
+            1
+        ]
+    },
+    {
+        "total": 0.7657352523016682,
+        "rank": 45,
+        "original": "Hickory-Smoked Bourbon Turkey",
+        "tokens": [
+            "Hickory-Smoked",
+            "Bourbon",
+            "Turkey"
+        ],
+        "tokenScores": [
+            0.6464466094067263,
+            0.8174258141649446,
+            0.8333333333333333
+        ]
+    },
+    {
+        "total": 0.7729379273840341,
+        "rank": 46,
+        "original": "Barbeque Pepper Jack Chicken",
+        "tokens": [
+            "Barbeque",
+            "Pepper",
+            "Jack",
+            "Chicken"
+        ],
+        "tokenScores": [
+            0.8333333333333333,
+            1,
+            0.5917517095361369,
+            0.6666666666666666
+        ]
+    },
+    {
+        "total": 0.8102424943659859,
+        "rank": 47,
+        "original": "White Bean Dip",
+        "tokens": [
+            "White",
+            "Bean",
+            "Dip"
+        ],
+        "tokenScores": [
+            0.6348516283298893,
+            0.7958758547680684,
+            1
+        ]
+    },
+    {
+        "total": 0.8365441234337692,
+        "rank": 48,
+        "original": "Beef Lasagna ( Points+)",
+        "tokens": [
+            "Beef",
+            "Lasagna",
+            "(",
+            "Points+)"
+        ],
+        "tokenScores": [
+            1,
+            0.6348516283298893,
+            1,
+            0.7113248654051871
+        ]
+    },
+    {
+        "total": 0.8656356303586837,
+        "rank": 49,
+        "original": "Filipino BBQ Pork Skewers",
+        "tokens": [
+            "Filipino",
+            "BBQ",
+            "Pork",
+            "Skewers"
+        ],
+        "tokenScores": [
+            0.6666666666666666,
+            1,
+            0.7958758547680684,
+            1
+        ]
+    }
+]

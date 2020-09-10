@@ -1,0 +1,552 @@
+[
+    {
+        "total": 0.23076923076923073,
+        "rank": 0,
+        "original": "Chicken Salad with Wild Rice",
+        "tokens": [
+            "Chicken Salad with Wild Rice"
+        ],
+        "tokenScores": [
+            0.23076923076923073
+        ]
+    },
+    {
+        "total": 0.2857142857142857,
+        "rank": 1,
+        "original": "Fried Chicken and Cole Slaw Sandwiches",
+        "tokens": [
+            "Fried Chicken and Cole Slaw Sandwiches"
+        ],
+        "tokenScores": [
+            0.2857142857142857
+        ]
+    },
+    {
+        "total": 0.3571428571428571,
+        "rank": 2,
+        "original": "Apple Horseradish Conserve",
+        "tokens": [
+            "Apple Horseradish Conserve"
+        ],
+        "tokenScores": [
+            0.3571428571428571
+        ]
+    },
+    {
+        "total": 0.4,
+        "rank": 3,
+        "original": "Chicken & Broccoli Alfredo ",
+        "tokens": [
+            "Chicken & Broccoli Alfredo "
+        ],
+        "tokenScores": [
+            0.4
+        ]
+    },
+    {
+        "total": 0.41666666666666663,
+        "rank": 4,
+        "original": "Chicken Piccata",
+        "tokens": [
+            "Chicken Piccata"
+        ],
+        "tokenScores": [
+            0.41666666666666663
+        ]
+    },
+    {
+        "total": 0.4285714285714286,
+        "rank": 5,
+        "original": "Thai Chicken Coconut Soup",
+        "tokens": [
+            "Thai Chicken Coconut Soup"
+        ],
+        "tokenScores": [
+            0.4285714285714286
+        ]
+    },
+    {
+        "total": 0.4375,
+        "rank": 6,
+        "original": "Mushroom and Roasted Garlic Risotto",
+        "tokens": [
+            "Mushroom and Roasted Garlic Risotto"
+        ],
+        "tokenScores": [
+            0.4375
+        ]
+    },
+    {
+        "total": 0.4375,
+        "rank": 7,
+        "original": "John Legend's Macaroni and Cheese",
+        "tokens": [
+            "John Legend's Macaroni and Cheese"
+        ],
+        "tokenScores": [
+            0.4375
+        ]
+    },
+    {
+        "total": 0.4375,
+        "rank": 8,
+        "original": "Macadamia Nut-Chocolate Tarts",
+        "tokens": [
+            "Macadamia Nut-Chocolate Tarts"
+        ],
+        "tokenScores": [
+            0.4375
+        ]
+    },
+    {
+        "total": 0.4444444444444444,
+        "rank": 9,
+        "original": "Mozzarella Omelet with Sage and Red Chile Flakes",
+        "tokens": [
+            "Mozzarella Omelet with Sage and Red Chile Flakes"
+        ],
+        "tokenScores": [
+            0.4444444444444444
+        ]
+    },
+    {
+        "total": 0.46153846153846156,
+        "rank": 10,
+        "original": "Mexican Slaw",
+        "tokens": [
+            "Mexican Slaw"
+        ],
+        "tokenScores": [
+            0.46153846153846156
+        ]
+    },
+    {
+        "total": 0.4666666666666667,
+        "rank": 11,
+        "original": "Spaghetti and Meatballs",
+        "tokens": [
+            "Spaghetti and Meatballs"
+        ],
+        "tokenScores": [
+            0.4666666666666667
+        ]
+    },
+    {
+        "total": 0.4666666666666667,
+        "rank": 12,
+        "original": "Pork-and-Pineapple Kebabs",
+        "tokens": [
+            "Pork-and-Pineapple Kebabs"
+        ],
+        "tokenScores": [
+            0.4666666666666667
+        ]
+    },
+    {
+        "total": 0.4666666666666667,
+        "rank": 13,
+        "original": "Mexican Chocolate Sauce",
+        "tokens": [
+            "Mexican Chocolate Sauce"
+        ],
+        "tokenScores": [
+            0.4666666666666667
+        ]
+    },
+    {
+        "total": 0.47058823529411764,
+        "rank": 14,
+        "original": "Grilled Portobello and Peach Sandwich",
+        "tokens": [
+            "Grilled Portobello and Peach Sandwich"
+        ],
+        "tokenScores": [
+            0.47058823529411764
+        ]
+    },
+    {
+        "total": 0.4736842105263158,
+        "rank": 15,
+        "original": "Crock-Pot Italian Turkey Meatballs and Homemade Sauce",
+        "tokens": [
+            "Crock-Pot Italian Turkey Meatballs and Homemade Sauce"
+        ],
+        "tokenScores": [
+            0.4736842105263158
+        ]
+    },
+    {
+        "total": 0.4736842105263158,
+        "rank": 16,
+        "original": "Indian Butter Chicken Naan Pizza with Lime & Peanut Slaw",
+        "tokens": [
+            "Indian Butter Chicken Naan Pizza with Lime & Peanut Slaw"
+        ],
+        "tokenScores": [
+            0.4736842105263158
+        ]
+    },
+    {
+        "total": 0.4736842105263158,
+        "rank": 17,
+        "original": "Blueberry, Caramel and White Chocolate Oatmeal Cookies",
+        "tokens": [
+            "Blueberry, Caramel and White Chocolate Oatmeal Cookies"
+        ],
+        "tokenScores": [
+            0.4736842105263158
+        ]
+    },
+    {
+        "total": 0.5,
+        "rank": 18,
+        "original": "Delicious Grilled Hamburgers",
+        "tokens": [
+            "Delicious Grilled Hamburgers"
+        ],
+        "tokenScores": [
+            0.5
+        ]
+    },
+    {
+        "total": 0.5,
+        "rank": 19,
+        "original": "Sticky Chinese Pork Belly",
+        "tokens": [
+            "Sticky Chinese Pork Belly"
+        ],
+        "tokenScores": [
+            0.5
+        ]
+    },
+    {
+        "total": 0.5,
+        "rank": 20,
+        "original": "Black-Eyed Pea Cakes",
+        "tokens": [
+            "Black-Eyed Pea Cakes"
+        ],
+        "tokenScores": [
+            0.5
+        ]
+    },
+    {
+        "total": 0.5,
+        "rank": 21,
+        "original": "Three-Bean Salad",
+        "tokens": [
+            "Three-Bean Salad"
+        ],
+        "tokenScores": [
+            0.5
+        ]
+    },
+    {
+        "total": 0.5,
+        "rank": 22,
+        "original": "Sausage, Escarole, and White Bean Ragout",
+        "tokens": [
+            "Sausage, Escarole, and White Bean Ragout"
+        ],
+        "tokenScores": [
+            0.5
+        ]
+    },
+    {
+        "total": 0.5,
+        "rank": 23,
+        "original": "Easy Vegetarian Spinach Lasagna",
+        "tokens": [
+            "Easy Vegetarian Spinach Lasagna"
+        ],
+        "tokenScores": [
+            0.5
+        ]
+    },
+    {
+        "total": 0.5263157894736843,
+        "rank": 24,
+        "original": "Gratin Dauphinois (Scalloped Potatoes with Cheese)",
+        "tokens": [
+            "Gratin Dauphinois (Scalloped Potatoes with Cheese)"
+        ],
+        "tokenScores": [
+            0.5263157894736843
+        ]
+    },
+    {
+        "total": 0.5294117647058824,
+        "rank": 25,
+        "original": "Chinese Steamed Fish with Soy Sesame Sauce",
+        "tokens": [
+            "Chinese Steamed Fish with Soy Sesame Sauce"
+        ],
+        "tokenScores": [
+            0.5294117647058824
+        ]
+    },
+    {
+        "total": 0.5333333333333333,
+        "rank": 26,
+        "original": "Beet and Carrot Slaw",
+        "tokens": [
+            "Beet and Carrot Slaw"
+        ],
+        "tokenScores": [
+            0.5333333333333333
+        ]
+    },
+    {
+        "total": 0.5384615384615384,
+        "rank": 27,
+        "original": "Broccoli Salad",
+        "tokens": [
+            "Broccoli Salad"
+        ],
+        "tokenScores": [
+            0.5384615384615384
+        ]
+    },
+    {
+        "total": 0.5555555555555556,
+        "rank": 28,
+        "original": "Hickory-Smoked Bourbon Turkey",
+        "tokens": [
+            "Hickory-Smoked Bourbon Turkey"
+        ],
+        "tokenScores": [
+            0.5555555555555556
+        ]
+    },
+    {
+        "total": 0.5555555555555556,
+        "rank": 29,
+        "original": "N.I.K – Italian Meatballs & Spaghetti",
+        "tokens": [
+            "N.I.K – Italian Meatballs & Spaghetti"
+        ],
+        "tokenScores": [
+            0.5555555555555556
+        ]
+    },
+    {
+        "total": 0.5625,
+        "rank": 30,
+        "original": "Stuart’s Thai Green Curry",
+        "tokens": [
+            "Stuart’s Thai Green Curry"
+        ],
+        "tokenScores": [
+            0.5625
+        ]
+    },
+    {
+        "total": 0.5625,
+        "rank": 31,
+        "original": "Cornmeal Biscuits",
+        "tokens": [
+            "Cornmeal Biscuits"
+        ],
+        "tokenScores": [
+            0.5625
+        ]
+    },
+    {
+        "total": 0.5625,
+        "rank": 32,
+        "original": "Barbeque Pepper Jack Chicken",
+        "tokens": [
+            "Barbeque Pepper Jack Chicken"
+        ],
+        "tokenScores": [
+            0.5625
+        ]
+    },
+    {
+        "total": 0.5714285714285714,
+        "rank": 33,
+        "original": "White Bean Dip",
+        "tokens": [
+            "White Bean Dip"
+        ],
+        "tokenScores": [
+            0.5714285714285714
+        ]
+    },
+    {
+        "total": 0.5833333333333333,
+        "rank": 34,
+        "original": "Salsa Verde",
+        "tokens": [
+            "Salsa Verde"
+        ],
+        "tokenScores": [
+            0.5833333333333333
+        ]
+    },
+    {
+        "total": 0.5833333333333333,
+        "rank": 35,
+        "original": "Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]",
+        "tokens": [
+            "Red Lentil Curry With Black Tahini and Roasted Cashews [Vegan, Gluten-Free]"
+        ],
+        "tokenScores": [
+            0.5833333333333333
+        ]
+    },
+    {
+        "total": 0.6,
+        "rank": 36,
+        "original": "Crab-and-Shrimp Étouffée",
+        "tokens": [
+            "Crab-and-Shrimp Étouffée"
+        ],
+        "tokenScores": [
+            0.6
+        ]
+    },
+    {
+        "total": 0.6,
+        "rank": 37,
+        "original": "Western Waldorf",
+        "tokens": [
+            "Western Waldorf"
+        ],
+        "tokenScores": [
+            0.6
+        ]
+    },
+    {
+        "total": 0.6,
+        "rank": 38,
+        "original": "Caramel Apple Trifles",
+        "tokens": [
+            "Caramel Apple Trifles"
+        ],
+        "tokenScores": [
+            0.6
+        ]
+    },
+    {
+        "total": 0.6111111111111112,
+        "rank": 39,
+        "original": "Sparkling Strawberry Pops",
+        "tokens": [
+            "Sparkling Strawberry Pops"
+        ],
+        "tokenScores": [
+            0.6111111111111112
+        ]
+    },
+    {
+        "total": 0.625,
+        "rank": 40,
+        "original": "Marinated Beef Tenderloin",
+        "tokens": [
+            "Marinated Beef Tenderloin"
+        ],
+        "tokenScores": [
+            0.625
+        ]
+    },
+    {
+        "total": 0.625,
+        "rank": 41,
+        "original": "Grilled Tri-tip Roast",
+        "tokens": [
+            "Grilled Tri-tip Roast"
+        ],
+        "tokenScores": [
+            0.625
+        ]
+    },
+    {
+        "total": 0.6428571428571428,
+        "rank": 42,
+        "original": "Cherry Tortoni",
+        "tokens": [
+            "Cherry Tortoni"
+        ],
+        "tokenScores": [
+            0.6428571428571428
+        ]
+    },
+    {
+        "total": 0.6470588235294117,
+        "rank": 43,
+        "original": "Filipino BBQ Pork Skewers",
+        "tokens": [
+            "Filipino BBQ Pork Skewers"
+        ],
+        "tokenScores": [
+            0.6470588235294117
+        ]
+    },
+    {
+        "total": 0.6470588235294117,
+        "rank": 44,
+        "original": "Chorizo Mushroom Queso Dip",
+        "tokens": [
+            "Chorizo Mushroom Queso Dip"
+        ],
+        "tokenScores": [
+            0.6470588235294117
+        ]
+    },
+    {
+        "total": 0.6666666666666667,
+        "rank": 45,
+        "original": "Basic Tomato Sauce",
+        "tokens": [
+            "Basic Tomato Sauce"
+        ],
+        "tokenScores": [
+            0.6666666666666667
+        ]
+    },
+    {
+        "total": 0.6842105263157895,
+        "rank": 46,
+        "original": "Roast Turkey with Port Gravy",
+        "tokens": [
+            "Roast Turkey with Port Gravy"
+        ],
+        "tokenScores": [
+            0.6842105263157895
+        ]
+    },
+    {
+        "total": 0.6842105263157895,
+        "rank": 47,
+        "original": "Beef Lasagna ( Points+)",
+        "tokens": [
+            "Beef Lasagna ( Points+)"
+        ],
+        "tokenScores": [
+            0.6842105263157895
+        ]
+    },
+    {
+        "total": 0.6875,
+        "rank": 48,
+        "original": "Arizona Tortilla Soup",
+        "tokens": [
+            "Arizona Tortilla Soup"
+        ],
+        "tokenScores": [
+            0.6875
+        ]
+    },
+    {
+        "total": 0.8,
+        "rank": 49,
+        "original": "Mushroom Risotto",
+        "tokens": [
+            "Mushroom Risotto"
+        ],
+        "tokenScores": [
+            0.8
+        ]
+    }
+]
